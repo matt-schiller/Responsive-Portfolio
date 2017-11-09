@@ -74,10 +74,10 @@ button {
 }
 
 .section:after {
-  content: "";
-  display: table;
-  clear: both;
-  height:50px;
+	content: "";
+	display: table;
+	clear: both;
+	height:50px;
 }
 
 .container {
@@ -156,4 +156,75 @@ button {
 	opacity:0.8;
 	margin-top:120px;
 	color:white;
+}
+
+@media (max-width: 980px) {
+	.container {
+		max-width:800px;
+	}
+	.inline-image {
+		width:100%;
+	}
+	.portfolio-block {
+		width:100%;
+		margin:0 0 20px 0;
+	}
+	.left-pane {
+		width:50%;
+	}
+	.right-pane {
+		width:35%;
+	}
+}
+
+@media (max-width: 768px) {
+	.left-pane, .right-pane {
+		width:88%;
+		margin:3%;
+		float:none;
+	}
+	.portfolio-block {
+		width:44%;
+		margin:3%;
+	}
+	.icon {
+		width:60px;
+	}
+	.navlink {
+		font-size:12px;
+		padding:15px;
+		letter-spacing:1.2px;
+	}
+	.navlink-block {
+		float:right;
+		margin-top:40px;
+	}
+	.inline-image {
+		width:50%;
+	}
+}
+
+@media (max-width: 640px) {
+	.logo {
+		width:100%;
+		text-align:center;
+		float:none;
+		padding-left:0;
+		padding-right:0;
+	}
+	.navlink-block {
+		width:100%;
+		float:none;
+		margin:20px auto 20px auto;
+		text-align:center;
+	}
+	.header
+		{height:auto;}
+	.inline-image {
+		width:100%;
+	}
+	.portfolio-block {
+		width:100%;
+		margin:0 0 20px 0;
+	}
 }
