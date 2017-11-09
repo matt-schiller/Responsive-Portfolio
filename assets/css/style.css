@@ -1,0 +1,159 @@
+body {
+	background-color:ghostwhite;
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom:100px;
+}
+
+h1,h2,h3,h4,h5 {
+	color:#32b1c7;
+	font-family: 'Libre Baskerville', serif;
+}
+
+p {
+	text-align:justify;
+}
+
+a {
+	text-decoration:none;
+	color:gray;
+	transition: opacity 500ms;
+}
+
+a:hover {
+	opacity:0.7;
+}
+
+hr {
+	margin-bottom:20px;
+}
+
+label {
+	width:96%;
+}
+
+input, textarea {
+	width:96%;
+	padding:10px;
+	margin-bottom:20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+button {
+	padding:10px 25px 10px 25px;
+	background-color:#32b1c7;
+	color:white;
+	border:none;
+	font-size:16px;
+}
+
+.header, .footer {
+	clear:both;
+	background-color:white;
+	overflow:hidden;
+}
+
+.header {
+	height:100px;
+	border-bottom: 1px solid lightgray;
+}
+
+.footer {
+	border-top: 1px solid lightgray;
+	padding:20px;
+	text-align:center;
+	background-color:#32b1c7;
+	position:fixed;
+	bottom:0px;
+	width:100%;
+	height:50px;
+}
+
+.footer-text {
+	color:white;
+}
+
+.section:after {
+  content: "";
+  display: table;
+  clear: both;
+  height:50px;
+}
+
+.container {
+	max-width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	clear:both;
+}
+
+.pane {
+	background-color:white;
+	overflow:auto;
+	padding:3%;
+	margin-top:40px;
+	margin-bottom:40px;
+	outline:1px solid lightgray;
+}
+
+.left-pane {
+	width:60%;
+	margin-right:3%;
+	float:left;
+}
+
+.right-pane {
+	width:25%;
+	float:right;
+}
+
+.logo {
+	font-size:40px;
+	color:white;
+	background-color:#32b1c7;
+	padding:25px;
+	float:left;
+}
+
+.navlink {
+	display:inline;
+	padding:20px;
+	text-transform:uppercase;
+	letter-spacing:2px;
+}
+
+.navlink-block {
+	float:right;
+	margin-top:40px;
+}
+
+.inline-image {
+	display:inline;
+	float:left;
+	width:200px;
+	margin-right:20px;
+	margin-bottom:10px;
+}
+
+.icon {
+	width:30%;
+}
+
+.portfolio-block {
+	width:44%;
+	margin:3%;
+	height:200px;
+	float:left;
+	background-size:cover;
+	background-position:center;
+}
+
+.portfolio-block-overlay {
+	width:100%;
+	text-align:center;
+	padding:20px 0 20px 0;
+	background-color:#32b1c7;
+	opacity:0.8;
+	margin-top:120px;
+	color:white;
+}
